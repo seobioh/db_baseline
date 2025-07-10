@@ -10,9 +10,9 @@ It includes pre-configured Dockerfile and docker-compose.yml.
 1. clone current project.
 2. add '.env' file on '/db'.
 3. add following code on .env file.
-'''
-POSTGRES_USER = your_db_user
-POSTGRES_PASSWORD = your_db_password
-POSTGRES_DB = your_db_name
-'''
+   ```env
+    POSTGRES_USER = your_db_user
+    POSTGRES_PASSWORD = your_db_password
+    POSTGRES_DB = your_db_name
+```
 4. docker compose up -d --build

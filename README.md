@@ -14,5 +14,5 @@ It includes pre-configured Dockerfile and docker-compose.yml.
     POSTGRES_USER = your_db_user
     POSTGRES_PASSWORD = your_db_password
     POSTGRES_DB = your_db_name
-```
+    ```
 4. docker compose up -d --build

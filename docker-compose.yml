@@ -13,7 +13,6 @@ services:
       - db_data:/var/lib/postgresql/data
     networks:
       - db_network
-    entrypoint: ["/bin/bash", "-c", "/startup/init-db.sh & docker-entrypoint.sh postgres"]
 
 networks:
   db_network:
